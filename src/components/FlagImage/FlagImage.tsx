@@ -113,7 +113,7 @@ export const FlagImage: React.FC<FlagImageProps> = ({
         height: size,
         ...style,
       }}
-      alt=""
+      alt={`Emoji ${iso2.toUpperCase()}`}
       {...restProps}
     />
   );
